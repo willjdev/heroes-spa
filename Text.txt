@@ -1,0 +1,19 @@
+Estructura de mediano tamaño, relativamente grande*
+
+Heroes App
+
+1. Se crea un Router en la carpeta router. De ahi se van a manejar
+    los routers.
+
+2. Como nuevo, se importa el AppRouter en HeroesApp, asi se manejaran los routes.
+
+3. Lo que esta en la carpeta heroes solo aparece cuando se paso la autenticacion, es decir lo de auth.
+
+4. Se crea un segundo router para manejar las rutas cuando no se ha autenticado, no tendria sentido mostrar un navbar conlas opciones de heroes
+    o con el logout cuando aun no se ha autenticado.
+
+5. Al abrir el Navigation.Provider en ReactDevTools vamos a poner ver todos los metodos y demas que ofrece
+
+6. yarn add query-string Paquete para extraer todo lo que se encuentra en todo el objeto del search, el que resulta de utilizar useLocation
+
+7. Rutas privadas: 
